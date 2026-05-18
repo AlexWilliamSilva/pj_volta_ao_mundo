@@ -1,0 +1,168 @@
+/* ---------------------------------------------------------------------- CONFIGURAÇÃO GERAL ---------------------------------------------------------------------- */
+
+body {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ---------------------------------------------------------------------- INTRODUÇÃO ---------------------------------------------------------------------- */
+
+.info-intro {
+    padding: 80px 10%;
+}
+
+.intro-container {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.intro-container h2 {
+    font-size: 42px;
+    color: #ff8800;
+    margin-bottom: 30px;
+}
+
+.intro-container p {
+    font-size: 22px;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+/* ---------------------------------------------------------------------- GRID DE INFORMAÇÕES ---------------------------------------------------------------------- */
+
+.info-grid {
+    width: 90%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.info-box {
+    width: 30%;
+    min-width: 250px;
+    float: left;
+    margin: 1.66%;
+    background: #1b1b1b;
+    padding: 35px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    display: block;
+    
+}
+
+.info-box:hover {
+    transform: translateY(-5px);
+}
+
+.info-box h3 {
+    color: #ff8800;
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+.info-box p {
+    font-size: 20px;
+    color: #fff;
+}
+
+/* ---------------------------------------------------------------------- TEXTO ---------------------------------------------------------------------- */
+
+.text-section {
+    padding: 80px 10%;
+}
+
+.text-container {
+    background: #1b1b1b;
+    padding: 50px;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.text-container h2 {
+    color: #ff8800;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.text-container p {
+    font-size: 22px;
+    line-height: 1.9;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* ---------------------------------------------------------------------- DESTAQUE ---------------------------------------------------------------------- */
+
+.info-highlight {
+    width: 90%;
+    margin: 80px auto;
+
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    flex-wrap: wrap;
+}
+
+.highlight-iframe {
+    flex: 1;
+}
+
+.highlight-iframe iframe {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.highlight-text {
+    flex: 1;
+}
+
+.highlight-text h2 {
+    color: #ff8800;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.highlight-text p {
+    font-size: 22px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* ---------------------------------------------------------------------- CURIOSIDADES ---------------------------------------------------------------------- */
+
+.curiosidade-section {
+    width: 90%;
+    margin: 80px auto;
+
+    background: #1b1b1b;
+
+    padding: 50px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.curiosidade-section h2 {
+    text-align: center;
+    color: #ff8800;
+
+    margin-bottom: 40px;
+
+    font-size: 40px;
+}
+
+.curiosidade-section ul {
+    padding-left: 30px;
+}
+
+.curiosidade-section li {
+    font-size: 22px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    color: #fff;
+}
