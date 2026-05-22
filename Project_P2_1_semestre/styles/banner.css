@@ -5,12 +5,9 @@ body {
 
 .page-banner {
     height: 540px;
-
     background-size: cover;
     background-position: center;
-
     position: relative;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,17 +16,13 @@ body {
 .banner-overlay {
     width: 100%;
     height: 100%;
-
     background: rgba(0,0,0,0.45);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     text-align: center;
     color: white;
-
     padding: 20px;
 }
 

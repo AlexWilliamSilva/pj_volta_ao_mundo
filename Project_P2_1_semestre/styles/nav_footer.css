@@ -14,7 +14,6 @@ nav {
     align-items: center;
     padding: 10px 50px;
     background: linear-gradient(to bottom, rgba(90, 90, 90, 0.8), transparent);
-
     /* Nav fixado no topo da página */
     position: fixed;
     width: 100%;
@@ -136,7 +135,6 @@ footer {
     width: 60px;
     height: 2px;
     background: orange;
-
     position: absolute;
     left: 50%;
     transform: translateX(-50%); 
