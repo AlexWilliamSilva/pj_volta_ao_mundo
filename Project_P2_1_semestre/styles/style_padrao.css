@@ -100,3 +100,57 @@ body {
     color: #d6d6d6;
     margin-bottom: 20px;
 }
+
+/* ---------------------------------------------------------------------- BLOCO RIO GANGES ---------------------------------------------------------------------- */
+
+.ganges-section {
+    width: 90%;
+    margin: 100px auto;
+    background: #1b1b1b;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.ganges-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+/* IMAGEM */
+.ganges-image {
+    width: 45%;
+}
+
+.ganges-image img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    border-radius: 14px;
+    display: block;
+}
+
+/* TEXTO */
+.ganges-content {
+    width: 55%;
+}
+
+.ganges-content h2 {
+    font-size: 48px;
+    color: orange;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.ganges-content p {
+    font-size: 22px;
+    line-height: 2;
+    color: #e2e2e2;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.ganges-content strong {
+    color: orange;
+}
