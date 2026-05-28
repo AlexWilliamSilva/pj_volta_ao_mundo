@@ -1,0 +1,173 @@
+
+
+/* ---------------------------------------------------------------------- ESTILOS PARA O MAIN DA PÁGINA INDEX ---------------------------------------------------------------------- */
+
+main {
+    padding-top: 80px;
+    min-height: 100vh;
+    background-image: url("../multimidia/imgfundoindia.jpg");
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to right,
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.7)
+    );
+
+    z-index: 1;
+}
+
+.hero-card {
+    width: 70%;
+    height: 500px;
+    
+    background-image: url("../multimidia/imgfundoindia.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+
+    position: relative;
+    overflow: hidden;
+
+    z-index: 2;
+}
+
+.hero-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+}
+
+.hero-card h1,
+.hero-card a {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-card h1 {
+    font-size: 32px;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+
+ .hero-card a {
+    background: orange;
+    text-decoration: none;
+    border: none;
+    padding: 18px 36px;
+    font-size: 26px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.hero-card a:hover {
+    background: #cc8400;
+    transform: scale(1.05);
+}
+
+/* ---------------------------------------------------------------------- SEÇÃO SOBRE A ÍNDIA NO INDEX ---------------------------------------------------------------------- */
+
+.sobre-india {
+    background: #e2e2e2;
+    padding: 100px 80px;
+    text-align: center;
+}
+
+.sobre-india h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    font-size: 20px;
+    color: #000000;
+    line-height: 1.6;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 350px;
+    background: #1e1e1e;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 25px;
+}
+
+.card-content h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.card-content p {
+    color: #ccc;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.card-content a {
+    display: inline-block;
+    text-decoration: none;
+    background: orange;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.card-content a:hover {
+    background: #cc8400;
+}
